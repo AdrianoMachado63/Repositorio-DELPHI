@@ -26,7 +26,9 @@ implementation
 procedure TForm3.Button1Click(Sender: TObject);
 begin
   ShowMessage('Ola MUndo!!!');
-  ShowMessage('1� Altera��o!!!');
+  ShowMessage('1º Alteração!!!');
+  ShowMessage('2º Alteração no servidor!!!');
+  
 end;
 
 end.
