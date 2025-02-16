@@ -1,4 +1,4 @@
-﻿unit UPrincipal;
+unit UPrincipal;
 
 interface
 
@@ -9,9 +9,7 @@ uses
 type
   TForm3 = class(TForm)
     Button1: TButton;
-    Button2: TButton;
     procedure Button1Click(Sender: TObject);
-    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,11 +29,6 @@ begin
   ShowMessage('1º Alteração!!!');
   ShowMessage('2º Alteração no servidor!!!');
   
-end;
-
-procedure TForm3.Button2Click(Sender: TObject);
-begin
-  ShowMessage('teste alteração em outro computador!!!');
 end;
 
 end.
